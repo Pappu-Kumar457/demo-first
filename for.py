@@ -1,0 +1,20 @@
+a=45
+b=785
+c=456
+d=765
+if(a>b):
+    if(a>c):
+        if(a>d):
+            g=a
+        else:
+            g=d
+    else:
+        if(b>c):
+            g=b
+        else:
+            g=c
+else:
+    g=b
+print(a,b,c,d)
+    
+print(g)

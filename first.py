@@ -1,0 +1,7 @@
+s1=input('Enter a text string:-')
+print('Original string:',s1)
+print('String in lowercase:',s1.lower())
+print('String in uppercase:',s1.upper())
+print('String in capitalized:',s1.capitalize())
+print('String in initicap:',s1.title())
+print(' length of a String :',len(s1))
